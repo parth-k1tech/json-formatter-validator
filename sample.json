@@ -1,0 +1,13 @@
+{
+    "name": "Sample Project",
+    "version": "1.0.0",
+    "nested": {
+        "array": [1, 2, 3, 4, 5],
+        "object": {
+            "key1": "value1",
+            "key2": "value2"
+        }
+    },
+    "boolean": true,
+    "null": null
+}
