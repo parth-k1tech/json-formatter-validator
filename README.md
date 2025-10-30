@@ -2,20 +2,17 @@
 
 A high-performance Python tool for formatting and validating JSON files, designed to handle large files efficiently through streaming processing.
 
-[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Features
 
-## ✨ Features
+- **Memory Efficient**: Process large JSON files through streaming
+- **High Performance**: Powered by `orjson` for fast JSON operations
+- **Pretty Printing**: Customizable indentation and formatting
+- **Validation**: Comprehensive JSON syntax validation
+- **Progress Tracking**: Visual progress bar for large files
+- **Syntax Highlighting**: Beautiful terminal output
+- **Key Sorting**: Optional alphabetical sorting of keys
 
-- 🚀 **Memory Efficient**: Process large JSON files through streaming
-- ⚡ **High Performance**: Powered by `orjson` for fast JSON operations
-- 🎨 **Pretty Printing**: Customizable indentation and formatting
-- ✅ **Validation**: Comprehensive JSON syntax validation
-- 📊 **Progress Tracking**: Visual progress bar for large files
-- 🎯 **Syntax Highlighting**: Beautiful terminal output
-- 🔍 **Key Sorting**: Optional alphabetical sorting of keys
-
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -59,7 +56,7 @@ python json_formatter.py input.json -o output.json --display
 python json_formatter.py input.json -o output.json --indent 4
 ```
 
-## 🛠️ Command Line Options
+## Command Line Options
 
 ```bash
 python json_formatter.py --help
@@ -73,7 +70,7 @@ python json_formatter.py --help
 | `--sort-keys` | Sort JSON object keys alphabetically |
 | `-o, --output` | Specify output file path |
 
-## 🔥 Performance Features
+## Performance Features
 
 ### Memory Efficient Processing
 - Uses `ijson` for streaming large JSON files
@@ -91,7 +88,7 @@ python json_formatter.py --help
 - Color-coded error messages
 - Beautiful terminal formatting
 
-## 📝 Example
+## Example
 
 Input JSON:
 ```json
@@ -113,13 +110,13 @@ Format with display:
 python json_formatter.py sample.json -o formatted.json --display
 ```
 
-## 🔧 Dependencies
+## Dependencies
 
 - `ijson`: Streaming JSON parser
 - `orjson`: High-performance JSON library
 - `rich`: Terminal formatting and highlighting
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -127,11 +124,11 @@ python json_formatter.py sample.json -o formatted.json --display
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - `ijson` for efficient JSON streaming
 - `orjson` for high-performance JSON operations
